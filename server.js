@@ -10,6 +10,9 @@ app.use(express.json());
 // Serve static frontend build
 app.use(express.static(path.join(__dirname, "dist")));
 
+// Serve PWA files (sw.js must be at root scope for full-site control)
+app.use(express.static(path.join(__dirname, "public")));
+
 // ─── API ROUTES (read-only + booking creation) ─────────────────────
 
 // --- Settings (read-only) ---
