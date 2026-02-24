@@ -1,7 +1,7 @@
 {
   "name": "beauty-parlour-client-app",
   "version": "1.0.0",
-  "description": "Client Booking App for Glow & Grace Beauty Parlour",
+  "description": "Client Booking App for Crazy Beauty Parlour",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

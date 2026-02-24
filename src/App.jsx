@@ -113,7 +113,7 @@ export default function App() {
 
   const [splash, setSplash] = useState(true);
   const [loading, setLoading] = useState(true);
-  const [parlourName, setParlourName] = useState('Glow & Grace');
+  const [parlourName, setParlourName] = useState('Crazy Beauty Parlour');
   const [parlourOpen, setParlourOpen] = useState(true);
   const [hours, setHours] = useState({});
   const [services, setServices] = useState([]);
@@ -145,7 +145,7 @@ export default function App() {
 
         if (settingsRes.ok) {
           const data = await settingsRes.json();
-          setParlourName(data.parlour_name || 'Glow & Grace');
+          setParlourName(data.parlour_name || 'Crazy Beauty Parlour');
           setParlourOpen(data.parlour_open !== false);
         }
 
@@ -311,8 +311,8 @@ export default function App() {
     return (
       <div className="sp">
         <div className="sp-i">✿</div>
-        <div className="sp-n">Glow & Grace</div>
-        <div className="sp-t">Beauty Studio</div>
+        <div className="sp-n">Crazy Beauty</div>
+        <div className="sp-t">Parlour</div>
         <div className="sp-b"></div>
       </div>
     );
@@ -326,9 +326,9 @@ export default function App() {
     <div className="cla">
       <div className="hdr">
         <div className="hdr-n">
-          Glow & <em>Grace</em>
+          Crazy <em>Beauty</em>
         </div>
-        <div className="hdr-sub">Beauty Studio</div>
+        <div className="hdr-sub">Parlour</div>
       </div>
 
       <div

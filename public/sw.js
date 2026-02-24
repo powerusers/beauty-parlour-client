@@ -1,4 +1,4 @@
-const CACHE_NAME = "glow-grace-v1";
+const CACHE_NAME = "crazy-beauty-v1";
 const STATIC_ASSETS = [
   "/",
   "/index.html",

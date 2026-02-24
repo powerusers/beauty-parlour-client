@@ -1,7 +1,7 @@
 {
-  "name": "Glow & Grace - Beauty Studio",
-  "short_name": "Glow & Grace",
-  "description": "Book your beauty appointments at Glow & Grace Beauty Studio",
+  "name": "Crazy Beauty Parlour",
+  "short_name": "Crazy Beauty Parlour",
+  "description": "Book your beauty appointments at Crazy Beauty Parlour Beauty Studio",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFBF7",
